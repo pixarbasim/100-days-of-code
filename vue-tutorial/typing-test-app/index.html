@@ -7,11 +7,13 @@
     </head>
     <body>
         <div id="root">
-            <div id="typing-text-container">
-                The prosecutor said if the mathematical mistakes are set right, the quantum of disproportionate assets owned by Jayalalithaa would be in excess of 76% of her known sources of income and not 8.12 % as arrived by the court.
+            <div id="typing-text-container"
+                class="noselect">
+                {{ textToType }}
             </div>
             <div id="user-input-container">
-                <textarea id="text-input" placeholder="Start typing above news here..."></textarea>
+                <textarea id="text-input" placeholder="Start typing above news here..."
+                    v-model="userInput"></textarea>
             </div>
             <div id="keyboard-view-container">
             </div>
