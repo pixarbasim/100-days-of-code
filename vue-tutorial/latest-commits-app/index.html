@@ -1,26 +1,7 @@
 <html>
-    <style>
-        #root {
-            font-family: 'Helvetica', Arial, sans-serif;
-        }
-        a {
-            text-decoration: none;
-            color: #f66;
-        }
-        li {
-            line-height: 1.5em;
-            margin-bottom: 20px;
-        }
-        .author, .date {
-            font-weight: bold;
-        }
-        #repo {
-            width: 300px;
-            text-align: right;
-        }
-    </style>
     <head>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
         <div id="root">
@@ -36,7 +17,6 @@
           <p>
               <input type="text"
                     id="repo"
-                    :value="repo"
                     name="repo"
                     v-model="repo">
               @{{ currentBranch }}
@@ -50,55 +30,6 @@
             </li>
           </ul>
         </div>
-
-        <script>
-
-
-        var root = new Vue({
-
-          el: '#root',
-
-          data: {
-            branches: ['master'],
-            currentBranch: 'master',
-            repo : 'ssanthos/serverless-slack-app',
-            commits: null
-          },
-
-          created: function () {
-            this.fetchData()
-          },
-
-          watch: {
-            currentBranch: 'fetchData'
-          },
-
-          filters: {
-            truncate: function (v) {
-              var newline = v.indexOf('\n')
-              return newline > 0 ? v.slice(0, newline) : v
-            },
-            formatDate: function (v) {
-              return v.replace(/T|Z/g, ' ')
-            }
-          },
-
-          methods: {
-            fetchData: function () {
-              var xhr = new XMLHttpRequest()
-              var self = this
-              var apiURL = 'https://api.github.com/repos/' + self.repo + '/commits?per_page=6&sha='
-
-              xhr.open('GET', apiURL + self.currentBranch)
-              xhr.onload = function () {
-                self.commits = JSON.parse(xhr.responseText)
-                console.log(self.commits[0].html_url)
-              }
-              xhr.send()
-            }
-          }
-        })
-
-        </script>
+        <script src="scripts.js"></script>
     </body>
 </html>
