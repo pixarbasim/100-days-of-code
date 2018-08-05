@@ -15,7 +15,12 @@
                 <textarea id="text-input" placeholder="Start typing above news here..."
                     v-model="userInput"></textarea>
             </div>
-            <div id="keyboard-view-container">
+            <div id="keyboard-container">
+                <div v-for="row in $options.keys" class="row">
+                    <button v-for="key in row" class="keyboard-key" id="{{key.id}}">
+                        {{key.key}}
+                    </button>
+                </div>
             </div>
             <div id="status-container">
             </div>
