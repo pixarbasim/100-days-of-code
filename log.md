@@ -21,3 +21,6 @@
 
 ### Day 5: Aug 5, 2018
 **Today's progress**: Added keyboard view to the page. Keys will be highlighted on keyboard when pressed.
+
+### Day 6: August 6, 2018
+***Today's progress***: Faced some struggle today trying to bind key presses to visible keyboard on screen. Currently, I am using a json object for all the keys in a row along with there shift keys. Could not figure out how to change styles of a particular button when pressed to highlight. Will try creating a vue template for each key.
