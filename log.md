@@ -23,4 +23,13 @@
 **Today's progress**: Added keyboard view to the page. Keys will be highlighted on keyboard when pressed.
 
 ### Day 6: August 6, 2018
-***Today's progress***: Faced some struggle today trying to bind key presses to visible keyboard on screen. Currently, I am using a json object for all the keys in a row along with there shift keys. Could not figure out how to change styles of a particular button when pressed to highlight. Will try creating a vue template for each key.
+**Today's progress**: Faced some struggle today trying to bind key presses to visible keyboard on screen. Currently, I am using a json object for all the keys in a row along with there shift keys. Could not figure out how to change styles of a particular button when pressed to highlight. Will try creating a vue template for each key.
+
+
+### Day 7: August 8, 2018
+**Today's Progress**: Defined a vue component to represent the keyboard key. Was stuck with some syntax level things. Thought it would be better to read on it a little on the vue official documentation (quite good). Also watched 3 videos from the website matthew learning on.
+**Link to work** : https://github.com/pixarbasim/typing-test/commit/80712a3bb047f6a482f2efb2decaf352fdbe21c6 
+
+### Day 8: August 9, 2018
+**Today's Progress**: Made the keyboard view responsive to text. Highlighting the keys on the view when pressed. More understanding about functions and passing props like style class dynamically to vue components.
+**Link to work**: https://pixarbasim.github.io/typing-test/
