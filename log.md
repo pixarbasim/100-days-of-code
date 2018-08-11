@@ -33,3 +33,7 @@
 ### Day 8: August 9, 2018
 **Today's Progress**: Made the keyboard view responsive to text. Highlighting the keys on the view when pressed. More understanding about functions and passing props like style class dynamically to vue components.
 **Link to work**: https://pixarbasim.github.io/typing-test/
+
+### Day 9: August 11, 2018
+**Today's Progress**: Wrote code for evaluation of correct words, wrong words, total strokes, etc. Also, implemented fetching of text to type from a News rss feed.
+**Link to work**: https://pixarbasim.github.io/typing-test/
