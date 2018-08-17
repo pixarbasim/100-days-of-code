@@ -37,3 +37,24 @@
 ### Day 9: August 11, 2018
 **Today's Progress**: Wrote code for evaluation of correct words, wrong words, total strokes, etc. Also, implemented fetching of text to type from a News rss feed.
 **Link to work**: https://pixarbasim.github.io/typing-test/
+
+### Day 10: August 12, 2018
+**Today's Progress**: Highlighting text as it is typed. Only thing left now is rendering the results to the user.
+**Link to work**: https://pixarbasim.github.io/typing-test/
+
+### Day 11: August 13, 2018
+**Today's Progress**: Fixed evaluation mechanism of correct word in case a previous word is deleted. Added a status bar to indicate results.
+**Link to work**: https://pixarbasim.github.io/typing-test/
+
+### Day 12: August 14, 2018
+**Today's Progress**: Implemented continuous throwing challenges as the user finishes previous challenge + some bug fixes related to evaluation of correct vs wrong words + some UI changes
+
+### Day 13: August 15, 2018
+**Today's Progress**: Added interface for starting/ pausing/ stopping challenges. Read about Vuex (vue's equivalent to redux). Also, came across `NUXT` (https://nuxtjs.org/), a minimal vue framework for building universal applications (js code that can execute both on the client and the server side). Looks really interesting, want to explore this more.
+
+### Day 14: August 16, 2018
+**Today's Progress**: Implemented timer, accuracy, modal to show results. Completed my app. I am pausing it here. Can be tried out here -> https://pixarbasim.github.io/typing-test/
+
+### Day 15: August 17, 2018
+**Today's Progress**: Explored NUXT.js. Got hold of a great course on it (Nuxt.js: Vue.js on Steroids). Arround 6 hours of video, along with hands on coding. Taking this up. Did the introduction module today. Created my first nuxt app.
+**Link to work**: https://github.com/pixarbasim/nuxt-tutoria
