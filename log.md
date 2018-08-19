@@ -2,14 +2,11 @@
 
 ### Day 1: Aug 1, 2018
 
-**Today's Progress**: Started with an introduction to the most basic features of [Vue.js](https://vuejs.org/v2/guide/) core.
-
-**Thoughts:** Plan to build a Typing test application using Vue.js. I have good experience in React.js and wanted to try out Vue.js.
-
+**Today's Progress**: Started with an introduction to the most basic features of [Vue.js](https://vuejs.org/v2/guide/) core.  
+**Thoughts:** Plan to build a Typing test application using Vue.js. I have good experience in React.js and wanted to try out Vue.js.  
 **Link to work:** [Commit](https://github.com/pixarbasim/100-days-of-code/commit/05ad9a0487aa7dbbeefedaf3f0c55ceded684c37)
 
 ### Day 2: Aug 2, 2018
-
 **Today's Progress**: Read about vue instance, vue lifecycle, template syntax, computed properties, watchers.
 
 ### Day 3: Aug 3, 2018
@@ -27,23 +24,23 @@
 
 
 ### Day 7: August 8, 2018
-**Today's Progress**: Defined a vue component to represent the keyboard key. Was stuck with some syntax level things. Thought it would be better to read on it a little on the vue official documentation (quite good). Also watched 3 videos from the website matthew learning on.
+**Today's Progress**: Defined a vue component to represent the keyboard key. Was stuck with some syntax level things. Thought it would be better to read on it a little on the vue official documentation (quite good). Also watched 3 videos from the website matthew learning on.  
 **Link to work** : https://github.com/pixarbasim/typing-test/commit/80712a3bb047f6a482f2efb2decaf352fdbe21c6 
 
 ### Day 8: August 9, 2018
-**Today's Progress**: Made the keyboard view responsive to text. Highlighting the keys on the view when pressed. More understanding about functions and passing props like style class dynamically to vue components.
+**Today's Progress**: Made the keyboard view responsive to text. Highlighting the keys on the view when pressed. More understanding about functions and passing props like style class dynamically to vue components.  
 **Link to work**: https://pixarbasim.github.io/typing-test/
 
 ### Day 9: August 11, 2018
-**Today's Progress**: Wrote code for evaluation of correct words, wrong words, total strokes, etc. Also, implemented fetching of text to type from a News rss feed.
+**Today's Progress**: Wrote code for evaluation of correct words, wrong words, total strokes, etc. Also, implemented fetching of text to type from a News rss feed.  
 **Link to work**: https://pixarbasim.github.io/typing-test/
 
 ### Day 10: August 12, 2018
-**Today's Progress**: Highlighting text as it is typed. Only thing left now is rendering the results to the user.
+**Today's Progress**: Highlighting text as it is typed. Only thing left now is rendering the results to the user.  
 **Link to work**: https://pixarbasim.github.io/typing-test/
 
 ### Day 11: August 13, 2018
-**Today's Progress**: Fixed evaluation mechanism of correct word in case a previous word is deleted. Added a status bar to indicate results.
+**Today's Progress**: Fixed evaluation mechanism of correct word in case a previous word is deleted. Added a status bar to indicate results.  
 **Link to work**: https://pixarbasim.github.io/typing-test/
 
 ### Day 12: August 14, 2018
@@ -56,5 +53,13 @@
 **Today's Progress**: Implemented timer, accuracy, modal to show results. Completed my app. I am pausing it here. Can be tried out here -> https://pixarbasim.github.io/typing-test/
 
 ### Day 15: August 17, 2018
-**Today's Progress**: Explored NUXT.js. Got hold of a great course on it (Nuxt.js: Vue.js on Steroids). Arround 6 hours of video, along with hands on coding. Taking this up. Did the introduction module today. Created my first nuxt app.
+**Today's Progress**: Explored NUXT.js. Got hold of a great course on it (Nuxt.js: Vue.js on Steroids). Arround 6 hours of video, along with hands on coding. Taking this up. Did the introduction module today. Created my first nuxt app.  
 **Link to work**: https://github.com/pixarbasim/nuxt-tutoria
+
+### Day 16: August 18, 2018
+
+**Today's Progress**: Watched Nuxt.js tutorial videos (https://www.udemy.com/nuxtjs-vuejs-on-steroids) along with doing it myself on the tutorial project I have created.  
+**Learnings**:-
+- How server-side rendering of pages looks (It's great for SEO)
+- Different ways to create routes and nested routes
+- Passing params to routes (edited)
