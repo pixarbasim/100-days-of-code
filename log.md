@@ -54,7 +54,7 @@
 
 ### Day 15: August 17, 2018
 **Today's Progress**: Explored NUXT.js. Got hold of a great course on it (Nuxt.js: Vue.js on Steroids). Arround 6 hours of video, along with hands on coding. Taking this up. Did the introduction module today. Created my first nuxt app.  
-**Link to work**: https://github.com/pixarbasim/nuxt-tutoria
+**Link to work**: https://github.com/pixarbasim/nuxt-tutorial
 
 ### Day 16: August 18, 2018
 
