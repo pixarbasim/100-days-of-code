@@ -63,3 +63,12 @@
 - How server-side rendering of pages looks (It's great for SEO)
 - Different ways to create routes and nested routes
 - Passing params to routes (edited)
+
+### Day 17: August 19, 2018
+**Today's Progress**: Continued with the tutorial on `NUXT.js`. Learned about how to do routing, validation of routes and nested routing.  
+**Link to work**: [Commit](https://github.com/pixarbasim/nuxt-tutorial/commit/e45f6a073e484c0f1c7ee498cc8e77991cbeb72b)
+
+### Day 18: August 20, 2018
+**Progress**: Learned about Layouts (also error layouts), pages and components (the differences, when to use what). And how to style each of them. Completed module 1 of `Nuxt.js: Vue.js on Steroids` course. This course is really interesting.  
+**Link to work**: [Commit](https://github.com/pixarbasim/nuxt-tutorial/commit/1f8020199db2d67aa1128b3bf9756d3a5dd52381)  
+**Up next**: Going to start with the Module 2 of the course where I am going to build a fully functional blog application using Nuxt.js
